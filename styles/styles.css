@@ -23,7 +23,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Crete Round', serif;
   background-color: var(--color-primary);
   font-size: 1.1rem;
   color: var(--color-white);
@@ -103,28 +103,6 @@ section {
           animation: scaleAnim 1s ease-in-out;
 }
 
-@-webkit-keyframes scaleAnim {
-  0% {
-    -webkit-transform: translateY(-100%) scaleY(0);
-            transform: translateY(-100%) scaleY(0);
-  }
-  100% {
-    -webkit-transform: translateY(0%) scaleY(1);
-            transform: translateY(0%) scaleY(1);
-  }
-}
-
-@keyframes scaleAnim {
-  0% {
-    -webkit-transform: translateY(-100%) scaleY(0);
-            transform: translateY(-100%) scaleY(0);
-  }
-  100% {
-    -webkit-transform: translateY(0%) scaleY(1);
-            transform: translateY(0%) scaleY(1);
-  }
-}
-
 .controls {
   position: fixed;
   z-index: 10;
@@ -161,9 +139,9 @@ section {
   padding: 1rem;
   cursor: pointer;
   background-color: var(--color-grey-4);
-  width: 55px;
+  width: 100px;
   height: 55px;
-  border-radius: 50%;
+  border-radius: 0%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -182,6 +160,10 @@ section {
   font-size: 1.2rem;
   color: var(--color-grey-2);
   pointer-events: none;
+}
+
+.controls .control span {
+  margin: .7rem 0;
 }
 
 /* Header-content */
