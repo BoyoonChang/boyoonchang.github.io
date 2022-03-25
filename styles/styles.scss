@@ -139,6 +139,11 @@ section{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   height: 100%;
+  .right-header{
+    position: relative;
+    top: 30%;
+    right: 30%;  
+  }
   .left-header{
     display: flex;
     align-items: center;

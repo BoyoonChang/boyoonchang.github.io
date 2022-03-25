@@ -180,6 +180,12 @@ section {
   height: 100%;
 }
 
+.header-content .right-header {
+  position: relative;
+  top: 30%;
+  right: 30%;
+}
+
 .header-content .left-header {
   display: -webkit-box;
   display: -ms-flexbox;
