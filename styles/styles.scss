@@ -26,7 +26,7 @@
 
 body{
   font-family: 'Crete Round', serif;
-  background-color:var(--color-primary);
+  background-color:var(--color-white);
   font-size: 1.1rem;
   color: var(--color-white);
   transition: all .4s ease-in-out;
@@ -81,6 +81,10 @@ section{
   transform: translateY(0) scale(1);
 }
 .sec6{
+  display: none;
+  transform: translateY(0) scale(1);
+}
+.sec7{
   display: none;
   transform: translateY(0) scale(1);
 }
