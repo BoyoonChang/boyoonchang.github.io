@@ -27,7 +27,7 @@
 }
 
 body {
-  font-family: 'Crete Round', serif;
+  font-family: 'EB Garamond', serif;
   background-color: var(--color-white);
   font-size: 1.1rem;
   color: var(--color-white);
@@ -131,14 +131,14 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -webkit-transform: translateY(-60%);
+          transform: translateY(-60%);
 }
 
 .controls .active-btn {
   color: var(--color-black);
-  -webkit-transition: all .0s ease-in-out;
-  transition: all .0s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 
 .controls .active-btn i {
@@ -163,7 +163,7 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: .7rem 0;
+  margin: .1rem 0;
 }
 
 .controls .control i {
