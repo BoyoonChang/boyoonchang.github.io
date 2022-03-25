@@ -167,7 +167,7 @@ section {
 }
 
 .controls .control i {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: var(--color-grey-2);
   pointer-events: none;
 }
