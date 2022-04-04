@@ -209,8 +209,8 @@ section {
 }
 
 .header-content .right-header p {
-  margin: 1.5rem 0;
-  line-height: 2rem;
+  margin: 1rem 0;
+  line-height: 1.5rem;
 }
 
 .header-content .left-header {
@@ -291,7 +291,7 @@ section {
 }
 
 .main-btn .btn-text {
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 .main-btn .btn-icon {
