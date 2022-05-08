@@ -261,7 +261,7 @@ section{
 /* Independent components */
 .btn-con{
   display: flex;
-  align-self: center;
+  align-self: flex-start;
 }
 .main-btn{
   color: inherit;

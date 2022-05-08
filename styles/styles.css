@@ -348,8 +348,8 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-item-align: center;
-      align-self: center;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 .main-btn {
