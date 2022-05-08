@@ -282,7 +282,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
+    border-radius: 0%;
     padding: 0.5rem;
     transition: all ease-in-out 0.2s;
     cursor: pointer;
@@ -290,7 +290,6 @@ section{
   .btn-icon:hover{
     background-color: #ddd;
   }
-
 }
 
 .main-title{
