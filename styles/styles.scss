@@ -230,6 +230,19 @@ section{
           font-weight: 700;
           color: var(--color-secondary);
         }
+        .medium-text{
+          font-size: 2rem;
+          font-weight: 700;
+          color: var(--color-secondary);
+        }
+        .med-small-text{
+          padding-top: 0.3em;
+          position: relative;
+          text-transform: uppercase;
+          font-size: 1.2rem;
+          color: var(--color-grey-1);
+          letter-spacing: 2px;
+        }
         .small-text{
           padding-left: 3rem;
           position: relative;
